@@ -1,4 +1,5 @@
 <div class="container">
+
     <div class="jumbotron">
         <h1 class="display-4 text-center">Eat-Da-Burger!</h1>
         <div class="card-body">
@@ -10,38 +11,37 @@
             <button class="btn btn-primary" type="submit">Place order</button>
           </form>
         </div>
-    </div>
 
-    <div class="row mt-4">
-        <div class="col-md-6 mt-4">
-            <div class="card border border-primary">
-                <div class="card-header bg-primary text-white">
-                 Burgers
-                </div>
-                <div class="card-body">
-                      {{#each burgers}}
-                        {{#unless devoured}}
-                          {{> burgers/burger-block devour=false}}
-                        {{/unless}}
-                      {{/each}}
-                </div>
-              </div>
-            </div>
-        
+        <div class="row mt-4">
             <div class="col-md-6 mt-4">
-              <div class="card border border-primary">
-                <div class="card-header bg-primary text-white">
-                  Devoured burgers
+                <div class="card border border-primary">
+                    <div class="card-header bg-primary text-white">
+                     Burgers
+                    </div>
+                    <div class="card-body">
+                          {{#each burgers}}
+                            {{#unless devoured}}
+                              {{> burgers/burger-block devour=false}}
+                            {{/unless}}
+                          {{/each}}
+                    </div>
+                  </div>
                 </div>
-                <div class="card-body">
-                  {{#each burgers}}
-                      {{#if devoured}}
-                        {{> burgers/burger-devoured devour=true}}
-                      {{/if}}
-                  {{/each}}
+            
+                <div class="col-md-6 mt-4">
+                  <div class="card border border-primary">
+                    <div class="card-header bg-primary text-white">
+                      Devoured burgers
+                    </div>
+                    <div class="card-body">
+                      {{#each burgers}}
+                          {{#if devoured}}
+                            {{> burgers/burger-devoured devour=true}}
+                          {{/if}}
+                      {{/each}}
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
+  </div>
 </div>
