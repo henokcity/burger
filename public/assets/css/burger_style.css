@@ -21,5 +21,6 @@ button {
 button:hover {
     background-color:#494040;
 }
-
- 
+.form-control {
+    background-color: transparent;
+}
