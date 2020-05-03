@@ -32,7 +32,7 @@ Eat-Da-Burger! is a restaurant app created with MySQL, Node, Express, Handlebars
 ## User-Story
     AS A user, I want to be able to view all burger order in the restaurant app
 
-    I WANT to be able to distingush the devoured burger from waithing to be devoured
+    I WANT to be able to distinguish the devoured burger from waithing to be devoured
 
     SO THAT I can manage the log and the database entery
 
@@ -42,7 +42,7 @@ Developers are often tasked with creating interfaces that make it easy for non-d
 
 ## Development-Strategy
 
-Design the following database schema containing three tables:
+Design the following database schema:
 
 
    * Create the `burgers_db`.
@@ -54,7 +54,7 @@ Design the following database schema containing three tables:
 
 #### Directory structure
 
-All the recommended files and directories from the steps above should look like the following structure:
+All the files and directories the burger logger app look like the following structure:
 
 ```
 .
@@ -107,8 +107,7 @@ This is a Herolu deployed application which require the folowings framework:
 
 Below is an example of what your application may look like
 
-![]()
-![]()
+![eat-de-burger](public/assets/img/eat-da-burger.png)
 
 
 ## Questions
