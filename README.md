@@ -107,7 +107,7 @@ This is a Herolu deployed application which require the folowings framework:
 
 Below is an example of what your application may look like
 
-![eat-de-burger](./public/assets/img/eat-da-burger.png)
+![eat-de-burger](\public\assets\img\eat-da-burger.PNG)
 
 
 ## Questions
